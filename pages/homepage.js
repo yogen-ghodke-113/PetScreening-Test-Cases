@@ -7,7 +7,7 @@ class HomePage {
     }
   
     async navigate() {
-      await this.page.goto('https://letcode.in/test', { waitUntil: 'networkidle' });
+      await this.page.goto('https://letcode.in/test');
     }
 
     async isLoaded() {
